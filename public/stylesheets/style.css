@@ -1,0 +1,40 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+.container {
+   min-height:100%;
+   position:relative;
+}
+body {
+	padding-top: 40px;	
+   padding-bottom:60px;   /* Height of the footer */
+}
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   padding:20px; 
+   background:#6cf;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.link {
+  stroke: #999;
+  stroke-opacity: .6;
+}

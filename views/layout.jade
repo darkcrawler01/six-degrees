@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js') 
+    script(src='http://d3js.org/d3.v3.min.js')
+    link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css') 
+    link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css') 
+    link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js') 
+
+  body
+
+    nav(role="navigation").navbar.navbar-default.navbar-fixed-top(style="padding-left:20px")
+        a(href="/").navbar-brand Six-degrees	  
+        ul.nav.navbar-nav
+            li.active
+                a(href="/welcome") Home
+            li
+                a(href="/search") Search
+
+    div.container            
+        block content
+
+    footer
+        h4.pull-right		 &copy; Kalyan : ) 
